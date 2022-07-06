@@ -1,19 +1,8 @@
 body {
   font-family: "Inter", sans-serif;
-  margin: 0;
   padding: 0;
-}
-.half-width {
-  width: 80%;
-}
-.half-width img {
-  margin-top: 30px;
-  width: 80%;
-  border-radius: 25px;
-}
-.info {
-  margin: 60px;
-  border-bottom: 1px solid #d59393;
+  margin: 0;
+  background-color: #ffffff;
 }
 #help {
   background-image: url(images/banner-background.jpg);
@@ -30,6 +19,7 @@ body {
   text-shadow: 7px 3px 4px #000000;
 }
 .banner-area p {
+  font-family: "Poppins", sans-serif;
   color: #ffffff;
   font-size: 25px;
   text-align: center;
@@ -45,57 +35,51 @@ body {
   border-radius: 5px;
   margin-left: 40%;
 }
+
 .donate-button:hover {
   background-color: blue;
 }
-#donate-today {
-  height: 50vh;
+.full-width {
+  width: 100%;
 }
-.section-area {
-  margin-top: 80px;
-  margin-bottom: 20px;
+.half-width {
+  width: 50%;
 }
-.section-area h2 {
+.center {
   padding-left: 40%;
-  font-size: 45px;
-  color: #121212;
+  text-align: center;
 }
-.section-area p {
+.title {
+  font-size: 45px;
   padding-left: 30%;
   padding-right: 25%;
-  text-align: center;
+  color: #121212;
 }
-.flex-container {
+.details {
+  font-family: "Poppins", sans-serif;
+  padding-left: 30%;
+  padding-right: 25%;
+}
+.flex {
   display: flex;
+  justify-content: center;
 }
 .donate-amount {
-}
-.donate-amount a {
-  text-decoration: none;
-  display: inline-block;
-  height: 40px;
-  width: 60px;
-  font-size: 14px;
-  margin-right: 30px;
-  color: #707070;
-  border: 1px solid #000000;
+  padding-right: 30px;
+  font-size: 30px;
+  font-weight: bold;
   background-color: #fafafa;
-  text-align: center;
-  padding-top: 10px;
+  color: #707070;
+  padding: 30px 10px;
+  margin-right: 20px;
 }
-.donate-amount a:hover {
+.select-amount {
   background-color: #ffeeee;
-}
-.donate-items {
-  margin-left: 35%;
-}
-.custom-donate {
-  margin-left: 33%;
 }
 .my-form {
   margin: 0 35px;
   padding: 20px 40px;
-  height: 235px;
+  height: auto;
 }
 
 .my-form input[type="number"] {
@@ -104,50 +88,39 @@ body {
   border: 2px solid #000;
   margin-bottom: 8px;
 }
-.my-form input[type="email"] {
-  width: 265px;
+.donate-btn {
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
   padding: 10px 15px;
-  border: 2px solid #000;
-  margin-bottom: 8px;
+  background-color: #ff5959;
+  border-radius: 10px;
+  margin-top: 10px;
 }
-#donate-plan {
-  padding-top: 80px;
-  width: 100vh;
+.donate-package {
+  margin: 20px 70px 10px 70px;
 }
-
-.my-form input[type="submit"] {
-  background: #ff5959;
-  width: 20%;
-  padding: 15px 0px;
-  margin-left: 80px;
-  border: 1px solid #ffffff;
-  border-right: 0px;
-  border-left: 0px;
+.package {
+  padding: 30px 10px 20px 10px;
+  margin-right: 20px;
+  height: auto;
+  width: 280px;
 }
-.subscribe-content {
-  margin-top: 30px;
-  background-color: #fff4d6;
-  height: 190px;
-  width: 70%;
-  margin-left: 15%;
+.donate-package-title {
+  color: #121212;
+  font-size: 24px;
 }
-.subscribe-form {
-  margin-left: 30%;
+.donate-package-details {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: left;
 }
-footer {
-  padding-top: 20px;
-  height: 150px;
-  background: black;
+.food {
+  background-color: #4f9da6;
 }
-footer {
-  margin-top: 80px;
+.shelter {
+  background-color: #ff5959;
 }
-footer h3 {
-  font-size: 30px;
-  text-align: center;
-  color: #ff5959;
-}
-footer p {
-  color: #d9dbe1;
-  text-align: center;
+.education {
+  background-color: #e2a1a1;
 }
